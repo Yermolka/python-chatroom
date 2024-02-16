@@ -14,10 +14,10 @@ Or you can use a virtual environment with pipenv
 ## How to run
 The project has simple cli tools in main.py
 To run the server:
-> python main.py run_server
+> python main.py run-server
 
 To run the client:
-> python main.py run_client -u username -p password
+> python main.py run-client -u username -p password
 
 Available users are:
 > -u admin -p admin
