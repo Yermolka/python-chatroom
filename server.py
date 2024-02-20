@@ -125,7 +125,7 @@ async def run_server():
     
     """
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(('localhost', 8000))
+    server.bind(('0.0.0.0', 8000))
     server.listen(8)
     server.setblocking(False)
 
